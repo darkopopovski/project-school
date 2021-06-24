@@ -114,7 +114,7 @@ function MyHealth() {
     )
 }
 const MyHealtjStyle = styled.div `
-    height:550vh;
+    height:480vh;
     width: calc(100% - 13rem);
     margin-left:13rem;
     display:flex;

@@ -5,37 +5,55 @@ import LocalAtmIcon from '@material-ui/icons/LocalAtm';
 import AddBoxIcon from '@material-ui/icons/AddBox';
 
 function Order() {
-    return (
-        <OrderStyle  id="order">
-            <h1>Нарчај го продуктот</h1>
-                <section className="section1">
-                    <div className="article">
-                        <AirportShuttleIcon className="icon1"/>
-                        <p>Брза достава до вашата адреса во рок од 1час.</p>
-                    </div>
+    return ( <
+        OrderStyle id = "order" >
+        <
+        h1 > Нарчај го продуктот < /h1> <
+        section className = "section1" >
+        <
+        div className = "article" >
+        <
+        AirportShuttleIcon className = "icon1" / >
+        <
+        p > Брза достава до вашата адреса во рок од 1 час. < /p> <
+        /div>
 
-                    <div className="article">
-                        <AddBoxIcon className="icon1"/>
-                        <p>Во соработка со повеќето аптеки ширум целата држава.</p>
-                    </div>
+        <
+        div className = "article" >
+        <
+        AddBoxIcon className = "icon1" / >
+        <
+        p > Во соработка со повеќето аптеки ширум целата држава. < /p> <
+        /div>
 
-                    <div className="article">
-                        <LocalAtmIcon className="icon1"/>
-                        <p>Плаќање при достава до вашиот дом, од аптеката.</p>
-                    </div>
-                </section>
-            <div className="input">
-                <input placeholder="Кликнете тука и внесете ја вашата Локација"type="text" className="input"/>
-            </div>
-            <li className="nav-item">
-                     <a href="#order1" activeClassName="active-class" className="btn1">Следно</a>
-                </li>
+        <
+        div className = "article" >
+        <
+        LocalAtmIcon className = "icon1" / >
+        <
+        p > Плаќање при достава до вашиот дом, од аптеката. < /p> <
+        /div> <
+        /section> <
+        div className = "input" >
+        <
+        input placeholder = "Кликнете тука и внесете ја вашата Локација"
+        type = "text"
+        className = "input" / >
+        <
+        /div> <
+        li className = "nav-item" >
+        <
+        a href = "#order1"
+        activeClassName = "active-class"
+        className = "btn1" > Следно < /a> <
+        /li>
 
-        </OrderStyle>
+        <
+        /OrderStyle>
     )
 }
 
-const OrderStyle = styled.div`
+const OrderStyle = styled.div `
     
    height:100vh;
    width:calc(100% - 13rem);
@@ -82,7 +100,7 @@ p{
         width: 33.5%;
         margin-left: 1px;
         margin-right: 1px;
-        font-size: 3vw;
+        font-size: 2vw;
         border-radius: 70px;
         height: 100%;
         box-shadow:  3px -1px 2px rgba(63,155,191,0.3),
