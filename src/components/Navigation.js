@@ -1,36 +1,50 @@
 import styled from 'styled-components';
 import React from 'react'
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import avatar from './avatar.png';
+
 function Navigation() {
-    return (
-        <NavigationStyle>
-            <div className='avatar'>
-            <img src={avatar} alt=""/>
-            </div>
-            <ul className="nav-items">
-                <li className="nav-item">
-                     <NavLink  to="/home" activeClassName="active-class">Home</NavLink>
-                </li>
-                <li className="nav-item">
-                     <NavLink  to="/about" activeClassName="active-class">About</NavLink>
-                </li>
-                <li className="nav-item">
-                     <NavLink  to="/contact" activeClassName="active-class">Contact</NavLink>
-                </li>
-                <li className="nav-item">
-                     <NavLink  to="/myhealth" activeClassName="active-class">My Health</NavLink>
-                </li>
-                
-            </ul>
-            <footer>
-                <p>@2021 Copyright FCSE</p>
-            </footer>
-        </NavigationStyle>
+    return ( <
+        NavigationStyle >
+        <
+        div className = 'avatar' >
+        <
+        img src = { avatar }
+        alt = "" / >
+        <
+        /div>  <
+        ul className = "nav-items" >
+        <
+        li className = "nav-item" >
+        <
+        a href = "#app"
+        activeClassName = "active-class" > Дома < /a>  <
+        /li>  <
+        li className = "nav-item" >
+        <
+        a href = "#about"
+        activeClassName = "active-class" > За Нас < /a> </li >
+        <
+        li className = "nav-item" >
+        <
+        a href = "#contact"
+        activeClassName = "active-class" > Контакт < /a>  <
+        /li>  <
+        li className = "nav-item" >
+        <
+        a href = "#myhealth"
+        activeClassName = "active-class" > My Health < /a> </li >
+        <
+        /ul>  <
+        footer >
+        <
+        p > @2021 Copyright FCSE < /p> </footer >
+        <
+        /NavigationStyle>
     )
 }
 
-const NavigationStyle = styled.div`
+const NavigationStyle = styled.div `
       p{
           font-size: 0.7rem;
           color:white;
@@ -42,13 +56,15 @@ const NavigationStyle = styled.div`
       align-items:center;
       height:100%;
       width:100%;
-      position:relative;
-      border-right: solid 1px #086A87;
       .avatar{
           width:95%;
-          margin-top:10%;
-          overflow:hidden;
           
+          overflow:hidden;
+          @media only screen and (max-width: 768px){
+              width:20%;
+              height:20%;
+              
+          }
              img{  
               width:100%;
               border-radius:50%;
@@ -61,6 +77,9 @@ const NavigationStyle = styled.div`
           width:100%;
           text-align: center;
           height: 35vh;
+          @media only screen and (max-width: 768px){
+                display:none;
+          }
           .active-class{
               background-color: #086A87;
               transition: 0.3s ease;
@@ -74,6 +93,7 @@ const NavigationStyle = styled.div`
                   padding: .3rem 0;
                   position: relative;
                   z-index:10;
+                  text-shadow: -1px -1px 10px rgba(255,255,255,0.25);
                   &:hover{
                       cursor: pointer;
                   }
@@ -91,7 +111,7 @@ const NavigationStyle = styled.div`
                   }
               }
               a:hover::before{
-                  width:98%;
+                  width:100%;
                   height:100%;
                   
               }
@@ -103,6 +123,9 @@ const NavigationStyle = styled.div`
           align-items: center;
           justify-content:center;
           height:7vh;
+          @media only screen and(max-width: 768px){
+              margin-left: 110%;
+          }
       }
 `;
 

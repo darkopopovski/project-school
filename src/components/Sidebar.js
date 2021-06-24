@@ -13,10 +13,15 @@ const SidebarStyle = styled.div`
     position: fixed;
     height:100vh;
     width:13rem;
+    left:0;
     background-color: #58ACFA;
-    @media only screen and (max-width: 600px){
-        width:10rem;
-        height:110vh;
+    box-shadow: 1px 1px 2px #0090ff,
+                -2px -2px 5px #0090ff;
+    @media only screen and (max-width: 768px){
+        top:0;
+        width:100%;
+        height:70px;
+        position:fixed;
     }
 `;
 
