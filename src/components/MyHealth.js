@@ -29,7 +29,8 @@ function MyHealth() {
         div className = "limon" >
         <
         img src = { Limon }
-        /> <
+        alt = "Girl in a jacket" / >
+        <
         /div><br / >
         <
         h3 > Напиток од ѓумбир за силен имунолошки систем < /h3>
@@ -57,7 +58,8 @@ function MyHealth() {
         div className = "Kjumbir" >
         <
         img src = { Kjumbir }
-        /> <
+        alt = "Girl in a jacket" / >
+        <
         /div><br / >
         <
         h4 > Што е повремено постење ? < /h4> <
@@ -66,7 +68,8 @@ function MyHealth() {
         div className = "Kjumbir" >
         <
         img src = { Devojka }
-        /> <
+        alt = "Girl in a jacket" / >
+        <
         /div><br / >
         <
         h4 > Физичка активност < /h4> <
@@ -90,7 +93,8 @@ function MyHealth() {
         div className = "Kjumbir" >
         <
         img src = { Joga }
-        /> <
+        alt = "Girl in a jacket" / >
+        <
         /div><br / >
         <
         h4 > Џогинг за почетници : важни совети за сите возрасни групи < /h4> <
@@ -106,7 +110,8 @@ function MyHealth() {
         div className = "Kjumbir" >
         <
         img src = { Jognig }
-        /> <
+        alt = "Girl in a jacket" / >
+        <
         /div><br / >
 
         <
