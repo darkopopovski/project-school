@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/project-schooln/static/js/main.4db7989b.chunk.js",
+    "main.js.map": "/project-schooln/static/js/main.4db7989b.chunk.js.map",
+    "runtime-main.js": "/project-schooln/static/js/runtime-main.0738877d.js",
+    "runtime-main.js.map": "/project-schooln/static/js/runtime-main.0738877d.js.map",
+    "static/js/2.59aba97c.chunk.js": "/project-schooln/static/js/2.59aba97c.chunk.js",
+    "static/js/2.59aba97c.chunk.js.map": "/project-schooln/static/js/2.59aba97c.chunk.js.map",
+    "index.html": "/project-schooln/index.html",
+    "static/js/2.59aba97c.chunk.js.LICENSE.txt": "/project-schooln/static/js/2.59aba97c.chunk.js.LICENSE.txt",
+    "static/media/Untitled.d4ffb7fc.jpg": "/project-schooln/static/media/Untitled.d4ffb7fc.jpg",
+    "static/media/avatar.346e2b33.png": "/project-schooln/static/media/avatar.346e2b33.png",
+    "static/media/eurofarm.f99a0cb9.png": "/project-schooln/static/media/eurofarm.f99a0cb9.png",
+    "static/media/image1.58500426.png": "/project-schooln/static/media/image1.58500426.png",
+    "static/media/image2.4049c92f.png": "/project-schooln/static/media/image2.4049c92f.png",
+    "static/media/image3.2e370cc8.png": "/project-schooln/static/media/image3.2e370cc8.png",
+    "static/media/image4.a6edaea3.png": "/project-schooln/static/media/image4.a6edaea3.png",
+    "static/media/image5.61fbbde5.png": "/project-schooln/static/media/image5.61fbbde5.png",
+    "static/media/image6.812bbbe4.png": "/project-schooln/static/media/image6.812bbbe4.png",
+    "static/media/image7.257e8358.png": "/project-schooln/static/media/image7.257e8358.png",
+    "static/media/zegin.c7c83317.png": "/project-schooln/static/media/zegin.c7c83317.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0738877d.js",
+    "static/js/2.59aba97c.chunk.js",
+    "static/js/main.4db7989b.chunk.js"
+  ]
+}
